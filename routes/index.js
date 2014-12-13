@@ -110,7 +110,7 @@ exports.GumballAction=function(req,res){
 				    
 				    console.log("I reached here now updating......");
 				    
-					client.put("https://api.mongolab.com/api/1/databases/cmpe281/collections/Gumball?q={'model':'"+model+"'}&?apiKey=O1eUOdvOeHo17UcWx9pGUN7ed0VH-qkz", args, function(data, response){
+					client.put("https://api.mongolab.com/api/1/databases/cmpe_281/collections/Gumball?q={'model':'"+model+"'}&?apiKey=O1eUOdvOeHo17UcWx9pGUN7ed0VH-qkz", args, function(data, response){
 					
 	            	});
 	            	
