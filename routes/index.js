@@ -10,7 +10,7 @@ exports.index = function(req, res){
 	var crypto = require('crypto');
 	var algorithm = "sha256";
 	
-	client.get("https://api.mongolab.com/api/1/databases/cmpe281/collections/Gumball?apiKey=9yT5rUnhjouf05g-DkI0l6l3QnEfFU5F",function(req , resp){
+	client.get("https://api.mongolab.com/api/1/databases/cmpe_281/collections/Gumball?apiKey=O1eUOdvOeHo17UcWx9pGUN7ed0VH-qkz",function(req , resp){
 		//console.log(data);
 		
 		var encrypt  = crypto.createHmac(algorithm,secretkey);
